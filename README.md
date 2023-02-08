@@ -8,6 +8,8 @@ This repository contains scripts demonstrate the idea presented in the [slides](
 - `demo_ascii.py` interprets input as ASCII characters. Yes, you can "text" on HTs.
 - `demo_image.py` transmits image in PPM format. Find your output image in `output/` subdirectory.
 
+The serial port expect characters sent from arduino with MT8870. Here's a [sample program](https://electropeak.com/learn/interfacing-mt8870-dtmf-decoder-module-with-arduino/) for your reference. It can be easily modified for out purpose.
+
 ## Install Dependencies
 
 ```bash
